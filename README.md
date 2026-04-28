@@ -56,6 +56,10 @@ Telugu, Tamil, Kannada, Malayalam, Hindi
 🎯 Click → Hear compliance report in local language
 
 📸 System Screens
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/02dd7f80-1e45-472e-aa41-c741dcfd1af2" />
+<img width="1920" height="1080" alt="DPDP_ Act_Workflow" src="https://github.com/user-attachments/assets/fad52227-7b09-4568-83a3-cf04a0761a07" />
+
+
 🧾 Compliance Dashboard
 
 🔄 Agent Workflow Execution
