@@ -1,75 +1,96 @@
-# 🔐 DPDP Act Compliance & Privacy Auditor (Privacy Sentinel)
+🔐 DPDP Act Compliance & Privacy Auditor (Privacy Sentinel)
 
-**"An AI-powered Privacy Sentinel that helps companies avoid ₹250 Cr+ fines under India’s DPDP Act."**
+"I built an AI Privacy Sentinel that can save companies up to ₹250 Cr in DPDP fines."
 
----
+🚨 Problem
 
-## 🚨 Problem
-India’s DPDP Act requires strict compliance. Companies struggle with:
-- Identifying PII across systems  
-- Multilingual consent validation  
-- Real-time compliance monitoring  
+With India’s DPDP Act, companies face:
 
----
+Massive penalties for non-compliance
+Poor visibility into PII across systems
+Broken or misleading multilingual consent flows
+💡 Solution: Privacy Sentinel
 
-## 💡 Solution
-A multi-agent AI system:
-- Crawler Agent  
-- PII Detective (OCR + NLP)  
-- Linguistic Auditor  
-- Remediation Agent  
+A multi-agent AI system that continuously audits, detects, and enforces compliance.
 
----
+⚙️ How It Works (End-to-End Flow)
+Crawler Agent
+→ Scans forms, dashboards, and data systems
+PII Detective
+→ Detects sensitive data (text + OCR from IDs)
+Linguistic Auditor
+→ Validates consent across 6+ languages
+→ Ensures legal meaning is preserved
+Human-in-the-Loop
+→ Validates PII classification
+→ Approves compliance decisions
+Remediation Agent
+→ Generates Jira tickets
+→ Assigns Data Protection Officer
+→ Drafts correction notices
+👤 Human-in-the-Loop (Key Innovation)
 
-## 👤 Human-in-the-Loop
-- PII validation  
-- Compliance approval  
-- Ticket confirmation  
-- Legal review  
+Instead of blind automation, this system introduces controlled decision checkpoints:
 
----
+✔ After PII detection → reduce false positives
+✔ Before compliance verdict → legal validation
+✔ Before ticket creation → severity confirmation
+✔ Before user notification → risk control
+📊 Compliance Health Score
 
-## 📊 Compliance Score
-Score (1–100) based on:
-- PII exposure  
-- Consent quality  
-- Language compliance  
+Generates a score (1–100) based on:
 
----
+PII exposure risk
+Consent quality
+Language compliance
 
-## 🔊 Voice Output
+🟢 Safe | 🟡 Medium Risk | 🔴 High Risk
+
+🔊 Multilingual Voice Output
+
 Supports:
-English, Telugu, Tamil, Kannada, Malayalam, Hindi  
 
----
+English (default)
+Telugu, Tamil, Kannada, Malayalam, Hindi
 
-## 🛠 Tech Stack
-- Frontend: Next.js  
-- Backend: Node.js / Python  
-- AI: LLM + OCR  
-- Automation: Agent workflows  
+🎯 Click → Hear compliance report in local language
 
----
+📸 System Screens
+🧾 Compliance Dashboard
 
-## 📸 Screenshots
-(Add images in /docs)
+🔄 Agent Workflow Execution
 
----
+🧪 Real Use Cases
+1. FinTech App
 
-## 🚀 Setup
+→ Scans onboarding forms
+→ Detects missing consent
+→ Flags compliance risk
 
-```bash
-git clone https://github.com/your-username/dpdp-privacy-sentinel.git
-cd dpdp-privacy-sentinel
-```
+2. HealthTech Platform
 
----
+→ Audits patient records
+→ Detects sensitive exposure
 
-## 💰 Business Impact
-- Avoid ₹250 Cr+ fines  
-- Reduce audit effort by 80%
+3. SaaS Product
 
-  <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/7165c2a2-2819-478a-b820-ff8d219ee6a2" />
-  <img width="1920" height="1080" alt="DPDP_ Act_Workflow" src="https://github.com/user-attachments/assets/be586663-921b-4e20-b9fb-7aba9c199afe" />
+→ Validates multilingual consent flows
 
+🛠 Tech Stack
+Frontend: Next.js
+Backend: Node.js / Python
+AI: LLM + OCR + NLP
+Automation: Agentic workflows
+Integrations: Jira API, Speech APIs
+💰 Business Impact
+Prevents ₹250 Cr+ fines
+Reduces audit effort by 80%
+Enables scalable compliance
+🧠 Why This Project Matters
 
+This project demonstrates:
+
+Agentic AI system design (not just API usage)
+Real-world regulatory problem solving
+Human-AI collaboration architecture
+Product thinking + technical execution
